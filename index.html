@@ -3,53 +3,15 @@
 <head>
 <title>Algorithm Tutorials</title>
 </head>
-<style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-a:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-background-color:#4CAF50;
-}
-</style>
 <body>
+<h1>Random Insult Generator</h1>
 
-<u><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
-<div>
-      <h1 id="name">Thomas C.K. Fuller</h1>
-      <p id="tagline" > <a href=index.html>Blog</a> : <a href=eng.html>Engineering</a> : <a href=physics.html>Physics</a>
-        : <a href=algorithms.html>Algorithms</a> : <a href=about.html>About</a></p>
-    </div>
+<form action="/insult.php">
+    Who would you like to insult?:<br>
+    <input type="text" name="firstname" value="Justin Bieber">
+    <br>
 
-<h1>Introduction</h1>
-<p>I'm making this website for a few reasons</p>
-<p>1.  To learn HTML and possibly some other web related programming languages</p>
-<p>2.  To produce meaningful content in the areas of Engineering, Physics, and Programming</p>   
-
-
+    <input type="submit" value="Insult Now">
+</form>
 </body>
 </html>
