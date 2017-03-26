@@ -3,11 +3,7 @@
 <head>
 
 </head>
-
 <body>
-<?php
-echo $_POST["firstname"]; 
-?>
-
+Welcome <?php echo $_POST["name"]; ?><br>
 </body>
 </html>
