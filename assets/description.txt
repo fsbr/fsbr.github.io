@@ -1,5 +1,4 @@
-Simple Landing
-=========
+THANK YOU for downloading the Simple Landing Page by Littlesparkvt. We greatly appreciate it! For more information about us and continued support please visit our website at http://www.littlesparkvt.com
 
 Simple Landing is a clean, responsive coming soon landing page built with Bootstrap. It was built for businesses and developers. 
 
@@ -50,9 +49,3 @@ http://www.google.com/webfonts/specimen/Open Sans
 
 Buttons
 Ace Subido (http://github.com/ace-subido)
-
-License
---
-GPL
-
-There is no support for this template, you're on your own buddy! 
