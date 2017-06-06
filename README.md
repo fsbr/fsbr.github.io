@@ -1,58 +1,39 @@
-Simple Landing
-=========
+## CleanBlogEnhanced jekyll template
+[![Build Status](https://travis-ci.org/ShikherVerma/Shikherverma.github.io.svg?branch=master)](https://travis-ci.org/ShikherVerma/Shikherverma.github.io)
 
-Simple Landing is a clean, responsive coming soon landing page built with Bootstrap. It was built for businesses and developers. 
+CleanBlogEnhanced is a ready-to-use template to help you create an awesome website quickly. Perfect for personal blogs or simple project websites.
 
-It has a countdown timer and jquery validated php email form. Both are super simple to change. Just change a few numbers and add your own email address and you're off!
+Jekyll blog based on [Clean Blog](http://startbootstrap.com/template-overviews/clean-blog/).
 
-It will only take you a few minutes to set up this template and have a splash page for your upcoming project.
+List of features :
+* Subfolder for blog, landing page different than blog
+* Comments using Disqus
+* Website stats using Google Analytics
+* Email subscription using FeedBurner
+* Travis build script to verify build and external links
+* Read Time Estimation for blog posts
+* Blog post tags
+* Tag specific pages
+* Jekyll collection for portfolio
+* Serverless search using javascript
+* Minimalistic Error 404 page
+* A solid [guide](http://shikherverma.com/blog/Yet-Another-Jekyll-Blog) on how to customize or remove individual features.
 
-Email form:
+## Usage
 
-To change the email form go to line 90 and change this line of code:
-$to = "youremailaddress@email.com";
+* Fork the repo
+* Rename to `username.github.io`
+* Modify the `_config` file
+* Replace all the posts and images with your data
+* In depth description of how to use this template is [here](http://shikherverma.com/blog/Yet-Another-Jekyll-Blog)
 
-Countdown Timer:
+## Questions, Bugs and Issues
 
-Go to line 140 and change this line:
-var liftoffTime = new Date(2012, 6 - 1, 22, 11, 00);
+Have a question about this template ?  
+Or want to report a bug or an issue with this template?  
+[Open a new issue](https://github.com/ShikherVerma/shikherverma.github.io/issues) here on GitHub
 
-jQuery Countdown by Keith Wood
-This script controls the countdown. To change the countdown timer, you can find more details, including how to change the date here: http://keith-wood.name/countdown.html
+## Copyright and License
 
-jQuery Validation Engine
-This script is used to ensure a valid email address in the form.
-More details are available here: http://www.position-absolute.com/articles/jquery-form-validator-because-form-validation-is-a-mess
-
-
-Code
-
-Compatible with Bootstrap 2.0.x
-Uses Bootstrap 2.0.1
-Written in valid HTML
-Includes jQuery 1.7.1
-CSS3 text shadows
-
-Browsers
-
-Firefox 4+
-Latest Chrome
-Latest Safari
-Internet Explorer 7+
-Opera 11
-
-Assets
-
-Fonts:
-
-Google Web font - Open Sans
-http://www.google.com/webfonts/specimen/Open Sans
-
-Buttons
-Ace Subido (http://github.com/ace-subido)
-
-License
---
-GPL
-
-There is no support for this template, you're on your own buddy! 
+Copyright ShikherVerma.  
+All rights reserved for the content data under `_posts`, `_portfolio` and `_images`, the rest of the code is released under the [MIT](https://github.com/ShikherVerma/shikherverma.github.io/blob/gh-pages/LICENSE) license.
