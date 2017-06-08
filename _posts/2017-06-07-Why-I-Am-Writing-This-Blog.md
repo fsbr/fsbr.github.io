@@ -2,7 +2,7 @@
 layout:     post
 title:      "Why I'm writing this blog"
 subtitle:   "Please Enjoy"
-date:       2017-07-06 03:00:00
+date:       2017-06-07 03:00:00
 author:     "Thomas Fuller"
 header-img: "img/posts/why.jpg"
 comments: true
